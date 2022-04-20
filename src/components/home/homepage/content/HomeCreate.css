@@ -1,0 +1,46 @@
+.create{
+    width: auto;
+    height: 400px;
+    position: relative;
+    outline: 1px soild blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .cnt{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mva{
+    height: 100px;
+    width: 100px;
+    background: black;    
+    }
+
+   p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    text-align: center;
+  }
+
+   h3{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 3px;
+  }
+
+   h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+  
+  }

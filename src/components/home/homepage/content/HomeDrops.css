@@ -1,0 +1,31 @@
+.drops{
+    width: 99%;
+    height: 300px;
+    position: relative;
+    margin: 5px 5px;
+    /* box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.15); */
+    border-radius: 5px;
+  
+    
+  }
+
+  .head-drops{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+  }
+  .head-drops h3{
+    padding: 50px 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+  }
+
+  
+  span{
+    cursor: pointer;
+    margin: 3px;
+  }
