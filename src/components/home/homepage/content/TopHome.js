@@ -13,19 +13,19 @@ const TopHome = () => {
 
         <div className="carousel-item active">
 
-          <img src={ image1 } id="image" className="d-block h-30 w-100" alt="..."/>
+          <img src={ image1 } className="d-block h-30 w-100 image" alt="..."/>
 
         </div>
 
         <div className="carousel-item">
 
-          <img src={ load } id="image" className="d-block h-30 w-100" alt="..."/>
+          <img src={ load } className="d-block h-30 w-100 image" alt="..."/>
 
         </div>
 
         <div className="carousel-item">
 
-          <img src={ world } id="image" className="d-block h-30 w-100" alt="..."/>
+          <img src={ world } className="d-block h-30 w-100 image" alt="..."/>
 
         </div>
 

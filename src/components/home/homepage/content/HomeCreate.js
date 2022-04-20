@@ -7,8 +7,8 @@ const HomeCreate = () => {
         <div className="row">
             <div className="col">
 
-            <div className="cnt">
-                <div className="mva"></div>
+            <div className="content">
+                <div className="display-content"></div>
                     <h3>Setup Your Wallet</h3>
                     <p>Once you've set up the wallet of your choice, connect
                        it to NFTing by clicking the wallet icon in the
@@ -21,7 +21,7 @@ const HomeCreate = () => {
             </div>
             <div className="col">
 
-            <div className="cnt">
+            <div className="content">
                 <div className="mva"></div>
                     <h3>Create your collection</h3>
                     <p>Click my collection and setup your collection.
@@ -36,8 +36,8 @@ const HomeCreate = () => {
             </div>
             <div className="col">
 
-            <div className="cnt">
-                <div className="mva"></div>
+            <div className="content">
+                <div className="display-content"></div>
                     <h3>Add your NFTs</h3>
                     <p>Upload your works(image, video, audio or 3D art), add a title 
                         and description, and customize your NFTs with properties with
@@ -50,8 +50,8 @@ const HomeCreate = () => {
             </div>
             <div className="col">
 
-                <div class="cnt">
-                    <div class="mva"></div>
+                <div class="content">
+                    <div class="display-content"></div>
                         <h3>List them for sale</h3>
                         <p>Choose between auctions, fixed-priced listing and declining price listing.
                             You choose how you want to sell your NFTingand we help you sell them. 

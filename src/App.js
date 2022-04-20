@@ -10,11 +10,11 @@ function App() {
 
   return (
     // note that in React, we use the className instead of className and also htmlFor instead of For 
-<div class="container-fluid mx-0">
+<div className="container-fluid mx-0">
   <div className="fixed-position">
 
-  <div class="row">
-    <div class="col">
+  <div className="row">
+    <div className="col">
 
       <Header />
 
@@ -23,8 +23,8 @@ function App() {
 
   </div>
 
-  <div class="row mt-2">
-    <div class="col-2 mx-3 bg-light" >
+  <div className="row mt-2">
+    <div className="col-2 mx-3 bg-light" >
 
       <Menu />
 
@@ -34,7 +34,7 @@ function App() {
 
     </div>
 
-    <div class="col-9 mx-4">
+    <div className="col-9 mx-4">
 
       <HomePage />
 

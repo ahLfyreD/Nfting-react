@@ -12,7 +12,7 @@ const Header = () => {
         <div className="container-fluid">
     
           <div className="navbar-brand">
-            <a href="#"><img className='image' src={ img2 } alt="" /></a>
+            <a href="#"><img className='display' src={ img2 } alt="" /></a>
       
           </div>
 
