@@ -22,7 +22,7 @@ const HomeCreate = () => {
             <div className="col">
 
             <div className="content">
-                <div className="mva"></div>
+                <div className="display-content"></div>
                     <h3>Create your collection</h3>
                     <p>Click my collection and setup your collection.
                        Add social links, a description, social & banner images,
