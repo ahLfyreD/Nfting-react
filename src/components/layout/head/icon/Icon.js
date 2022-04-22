@@ -3,7 +3,7 @@ const Icon = () => {
   return (
     <div className="container d-flex">
 
-      <select class="form-select form-select-sm" 
+      <select className="form-select form-select-sm" 
               aria-label=".form-select-sm example">
 
         <option selected>lang</option>
@@ -14,7 +14,7 @@ const Icon = () => {
       </select>
 
       <button type="button" 
-              class="btn-lg btn-light">
+              className="btn-lg btn-light">
 
         <i className="fas fa-bell"></i>
 

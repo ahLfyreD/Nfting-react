@@ -50,8 +50,8 @@ const HomeCreate = () => {
             </div>
             <div className="col">
 
-                <div class="content">
-                    <div class="display-content"></div>
+                <div className="content">
+                    <div className="display-content"></div>
                         <h3>List them for sale</h3>
                         <p>Choose between auctions, fixed-priced listing and declining price listing.
                             You choose how you want to sell your NFTingand we help you sell them. 

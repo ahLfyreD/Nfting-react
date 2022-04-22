@@ -2,13 +2,13 @@ import './Search.css';
 
 const Search = () => {
   return (
-    <div class="input-group">
+    <div className="input-group">
 
-      <span class="input-group-text" id="basic-addon1">
+      <span className="input-group-text" id="basic-addon1">
         <i className="fas fa-search"></i>
       </span>
 
-      <input type="text" class="form-control" 
+      <input type="text" className="form-control" 
       placeholder="Search" aria-label="Search" 
       aria-describedby="basic-addon1" />
     </div>

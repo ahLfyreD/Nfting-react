@@ -17,7 +17,7 @@
     margin-right: 5px;
     width: 70%;
   }
-  .menu li{
+  .menu li {
     text-decoration: none;
     line-height: 30px;
     color: black;
@@ -30,9 +30,16 @@
     font-family: 'Poppins', sans-serif;
   
   }
+
   .menu li i{
     margin: 0;
   }
+
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+
   .menu li:hover{
     background: linear-gradient(315deg, rgb(113, 113, 248), white);
   }
