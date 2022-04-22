@@ -1,4 +1,4 @@
-// import Logo from './logo/Logo'
+import { Link } from 'react-router-dom'
 import Search from './search/Search'
 import img2 from './logo.png'
 import Icon from './icon/Icon'
@@ -12,7 +12,7 @@ const Header = () => {
         <div className="container-fluid">
     
           <div className="navbar-brand">
-            <a href="#"><img className='display' src={ img2 } alt="" /></a>
+            <Link to="/"><img className='display' src={ img2 } alt="" /></Link>
       
           </div>
 
