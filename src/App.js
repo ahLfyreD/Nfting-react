@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/layout/head/Header'
 import MyNFT from './components/My-NFT/MyNFT'
-import News from './components/News-Feed/News'
-import Live from './components/Live-Event/Live'
-import Market from './components/Market-Stat/Market'
-import Create from './components/Create-NFT/Create'
+import News from './components/News-Feed/NewsFeed'
+import Live from './components/Live-Event/LiveEvent'
+import Market from './components/Market-Stat/MarketStat'
+import Create from './components/Create-NFT/CreateNFT'
 import Menu from './components/home/menu/Menu'
 import Recommend from './components/home/recommend/Recommend'
 import Profile from './components/home/profile/Profile'
@@ -17,7 +17,7 @@ function App() {
   return (
 <Router>
   <div className="container-fluid mx-0">
-    
+
    <div className="fixed-position">
 
    <div className="row">
@@ -45,10 +45,10 @@ function App() {
        <Routes>
      
         <Route path='/mynft' element={<MyNFT />} />
-        <Route path='/liveevent' element={<Live />} />
-        <Route path='/marketstatistics' element={<Market />} />
-        <Route path='/newsfeed' element={<News />} />
-        <Route path='/create' element={<Create />} />
+        <Route path='/liveevent' element={<LiveEvent />} />
+        <Route path='/marketstatistics' element={<MarketStat />} />
+        <Route path='/newsfeed' element={<NewsFeed />} />
+        <Route path='/create' element={<CreateNFT />} />
         <Route path='/' element={<HomePage/>}/>
 
       </Routes>
