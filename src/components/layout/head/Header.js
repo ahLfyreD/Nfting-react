@@ -8,8 +8,8 @@ import { isLabelWithInternallyDisabledControl } from '@testing-library/user-even
 const Header = () => {
   return (
     // <div className="fixed-top">
-      <nav className="navbar navbar-expand-lg bg-light mx-0 p-f">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-light mx-0 p-f d-flex">
+        <div className="container-fluid d-flex">
     
           <div className="navbar-brand">
             <Link to="/"><img className='display' src={ img2 } alt="" /></Link>
@@ -32,7 +32,7 @@ const Header = () => {
   
       </nav>
 
-    // </div>
+    //  {/* </div> */}
   )
 }
 
