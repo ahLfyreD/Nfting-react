@@ -3,7 +3,7 @@ import Search from './search/Search'
 import img2 from './logo.png'
 import Icon from './icon/Icon'
 import './Header.css'
-import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils'
+// import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils'
 
 const Header = () => {
   return (
