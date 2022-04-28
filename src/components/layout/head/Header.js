@@ -7,7 +7,7 @@ import { isLabelWithInternallyDisabledControl } from '@testing-library/user-even
 
 const Header = () => {
   return (
-    // <div className="fixed-top">
+    <div className="fixed-top">
       <nav className="navbar navbar-expand-lg bg-light mx-0 p-f d-flex">
         <div className="container-fluid d-flex">
     
@@ -32,7 +32,7 @@ const Header = () => {
   
       </nav>
 
-    //  {/* </div> */}
+     </div> 
   )
 }
 
