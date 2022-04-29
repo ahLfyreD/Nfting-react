@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from '@components/layout/head/Header'
-import MyNFT from '@components/my-nft/MyNFT'
+import MyNFT from '@components/My-NFT/MyNFT'
 import NewsFeed from '@components/news-feed/NewsFeed'
 import LiveEvent from '@components/live-event/LiveEvent'
 import MarketStat from '@components/market-stat/MarketStat'
