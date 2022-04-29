@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Search from './search/Search'
-import img2 from './logo.png'
+import img2 from '@asset/images/logo.png'
 import Icon from './icon/Icon'
 import './Header.css'
 // import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils'
