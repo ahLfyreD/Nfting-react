@@ -1,5 +1,5 @@
 import './Recommend.css';
-import picture from './picture.jpg' 
+import picture from '@asset/images/picture.jpg' 
 
 const Recommend = () => {
   return (
