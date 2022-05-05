@@ -6,6 +6,7 @@ import HomeDrops from './content/HomeDrops'
 import HomeOpt from './content/HomeOpt'
 import HomeCreate from './content/HomeCreate'
 import HomeNews from './content/HomeNews'
+import About from './content/About'
 
 
 const HomePage = () => {
@@ -37,6 +38,10 @@ const HomePage = () => {
 
       <div>
         <HomeNews />
+      </div>
+
+      <div>
+        <About />
       </div>
         
         
