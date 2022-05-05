@@ -8,7 +8,7 @@ import './Header.css'
 const Header = () => {
   return (
     // <div className="fixed-top">
-      <nav className="navbar navbar-expand-lg bg-light mx-0 p-f d-flex">
+      <nav className="navbar navbar-expand-lg bg-light d-flex">
         <div className="container-fluid d-flex">
     
           <div className="navbar-brand">
