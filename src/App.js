@@ -16,22 +16,22 @@ function App() {
 
   return (
 <Router>
-  <div className="container-fluid mx-0">
+  <div className="container-fluid">
 
    <div className="fixed-position">
 
    <div className="row">
-     <div className="col">
+     {/* <div className="col"> */}
 
       <Header />
 
-      </div>
+      {/* </div> */}
     </div>
 
     </div>
 
    <div className="row mt-2">
-     <div className="col-2 mx-3 bg-light" >
+     <div className="col-2 bg-light" >
 
       <Menu />
 
@@ -41,7 +41,7 @@ function App() {
 
       </div>
 
-     <div className="col-9 mx-4">
+     <div className="col-10">
        <Routes>
      
         <Route path='/mynft' element={<MyNFT />} />
