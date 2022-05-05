@@ -8,7 +8,7 @@ import CreateNFT from '@components/create-nft/CreateNFT'
 import Menu from '@components/home/menu/Menu'
 import Recommend from '@components/home/recommend/Recommend'
 import Profile from '@components/home/profile/Profile'
-import Footer from '@components/layout/footer/Footer'
+// import Footer from '@components/layout/footer/Footer'
 import HomePage from '@components/home/homepage/HomePage'
 
 
@@ -63,7 +63,7 @@ function App() {
 
      <div className="col">
 
-      <Footer />
+      {/* <Footer /> */}
 
       </div>
     </div>
