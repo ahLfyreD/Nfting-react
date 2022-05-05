@@ -7,11 +7,13 @@ const HomeDrops = () => {
         <div className="head-drops">
 
             <h3>Lastest Drops / Notable Drops</h3>
-            <h3>View All 
+            <button type='button'
+                    className='click'>
+              View All 
               <span>
-                  <i className="fas fa-arrow-right"></i>
+                <i className="fas fa-arrow-right"></i>
               </span>
-            </h3>
+           </button>
         </div>
 
         <div className="row mx-5 mt-5">

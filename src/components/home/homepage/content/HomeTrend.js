@@ -8,11 +8,13 @@ const HomeTrend = () => {
             
             <h3>Trending / Featured NFT</h3>
 
-            <h3>All Trending
-               <span>
-                  <i className="fas fa-arrow-right"></i>
-                </span>
-            </h3>
+            <button type='button'
+                    className='click'>
+              All Trending 
+              <span>
+                <i className="fas fa-arrow-right"></i>
+              </span>
+           </button>
             
         </div>
 

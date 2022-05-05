@@ -5,7 +5,13 @@ const HomeNews = () => {
     <div className="news">
         <div className="head-news">
            <h3>News Feed and Blogs</h3>
-           <h3>View All <span><i className="fas fa-arrow-right"></i></span></h3>
+           <button type='button'
+                    className='click'>
+              View All 
+              <span>
+                <i className="fas fa-arrow-right"></i>
+              </span>
+           </button>
         </div>
         <div className="row mx-5 mt-5">
             {/* Each column contains components with images, a radio button and a name of the collector. */}
