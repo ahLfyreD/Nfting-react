@@ -10,7 +10,7 @@ import HomeNews from './content/HomeNews'
 
 const HomePage = () => {
   return (
-    <div className="container-fluid-lg">
+    <div className="Page">
       <div>
         <TopHome />
       </div>
