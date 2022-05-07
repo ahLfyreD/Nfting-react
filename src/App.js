@@ -6,7 +6,7 @@ import LiveEvent from '@components/live-event/LiveEvent'
 import MarketStat from '@components/market-stat/MarketStat'
 import CreateNFT from '@components/create-nft/CreateNFT'
 import Menu from '@components/home/menu/Menu'
-import Recommend from '@components/home/recommend/Recommend'
+// import Recommend from '@components/home/recommend/Recommend'
 import Profile from '@components/home/profile/Profile'
 // import Footer from '@components/layout/footer/Footer'
 import HomePage from '@components/home/homepage/HomePage'
@@ -35,7 +35,7 @@ function App() {
 
       <Menu />
 
-      <Recommend />
+      {/* <Recommend /> */}
 
       <Profile />
 
