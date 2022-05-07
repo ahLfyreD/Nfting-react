@@ -28,7 +28,7 @@ const TopHome = () => {
               </div>
             </div>
             <div className="card">
-              <img src={world} className="card-img-top" alt="..." />
+              <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -41,7 +41,7 @@ const TopHome = () => {
               </div>
             </div>
             <div className="card">
-              <img src={load} className="card-img-top" alt="..." />
+              <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -59,7 +59,7 @@ const TopHome = () => {
         <div className="carousel-item">
           <div className="cards-wrapper">
             <div className="card">
-              <img src={load} className="card-img-top" alt="..." />
+              <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -85,7 +85,7 @@ const TopHome = () => {
               </div>
             </div>
             <div className="card">
-              <img src={world} className="card-img-top" alt="..." />
+              <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -103,7 +103,7 @@ const TopHome = () => {
         <div className="carousel-item">
           <div className="cards-wrapper">
             <div className="card">
-              <img src={world} className="card-img-top" alt="..." />
+              <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
@@ -116,7 +116,7 @@ const TopHome = () => {
               </div>
             </div>
             <div className="card">
-              <img src={load} className="card-img-top" alt="..." />
+              <img src={image1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">
