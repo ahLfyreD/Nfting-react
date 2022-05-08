@@ -1,4 +1,5 @@
 import './HomeTrend.css'
+import load from '@asset/images/image2.jpg'
 
 const HomeTrend = () => {
   return (
@@ -21,52 +22,52 @@ const HomeTrend = () => {
         <div className="row mx-5 mt-5">
             {/* Each column contains components with images, a radio button and a name of the collector. */}
             <div className="col">
-              <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" class="btn btn-primary">Go somewhere</a>
+              <div className="card" style={{width: '10rem'}}>
+                <img src={load} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                  <a href="/" className="btn btn-primary btn-sm" style={{float: 'right'}}>click</a>
                 </div>
               </div>
             </div>
             <div className="col">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" class="btn btn-primary">Go somewhere</a>
+            <div className="card" style={{width: '10rem'}}>
+                <img src={load} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                  <a href="/" className="btn btn-primary btn-sm" style={{float: 'right'}}>click</a>
                 </div>
               </div>            
             </div>
             <div className="col">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" class="btn btn-primary">Go somewhere</a>
+            <div className="card" style={{width: '10rem'}}>
+                <img src={load} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                  <a href="/" className="btn btn-primary btn-sm" style={{float: 'right'}}>click</a>
                 </div>
               </div>            
             </div>
             <div className="col">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" class="btn btn-primary">Go somewhere</a>
+            <div className="card" style={{width: '10rem'}}>
+                <img src={load} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                  <a href="/" className="btn btn-primary btn-sm" style={{float: 'right'}}>click</a>
                 </div>
               </div>             
            </div>
             <div className="col">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="/" class="btn btn-primary">Go somewhere</a>
+            <div className="card" style={{width: '10rem'}}>
+                <img src={load} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  {/* <h5 className="card-title">Card title</h5> */}
+                  {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                  <a href="/" className="btn btn-primary btn-sm" style={{float: 'right'}}>click</a>
                 </div>
               </div>             
             </div>
