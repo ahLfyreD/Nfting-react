@@ -1,8 +1,8 @@
 import React from "react";
 import "./TopHome.css";
 import image1 from "@asset/images/image1.jpg";
-import load from "@asset/images/image2.jpg";
-import world from "@asset/images/image3.jpg";
+// import load from "@asset/images/image2.jpg";
+// import world from "@asset/images/image3.jpg";
 
 const TopHome = () => {
   return (
