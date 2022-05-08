@@ -19,7 +19,7 @@ const HomeTrend = () => {
             
         </div>
 
-        <div className="row mx-5 mt-5">
+        <div className="row mt-5">
             {/* Each column contains components with images, a radio button and a name of the collector. */}
             <div className="col">
               <div className="card" style={{width: '10rem'}}>

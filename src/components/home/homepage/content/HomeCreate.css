@@ -1,6 +1,6 @@
 .create{
     width: auto;
-    height: 500px;
+    height: fit-content;
     position: relative;
     outline: 1px soild blue;
     display: flex;
