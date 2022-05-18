@@ -1,6 +1,8 @@
 .Page{
-    height: fit-content;
+    height: 100%;
     width: 100%;
-    position: abosulte;
-  
+    padding: 20px;
+    position: relative;
+    display: block;
+    /* overflow-y: scroll;  */
   }

@@ -1,7 +1,6 @@
 import './HomePage.css'
 import TopHome from './content/TopHome'
 import HomeTrend from './content/HomeTrend'
-import HomeName from './content/HomeName'
 import HomeDrops from './content/HomeDrops'
 import HomeOpt from './content/HomeOpt'
 import HomeCreate from './content/HomeCreate'
@@ -18,10 +17,6 @@ const HomePage = () => {
 
       <div>
         <HomeTrend />
-      </div>
-
-      <div>
-        <HomeName />
       </div>
 
       <div>
