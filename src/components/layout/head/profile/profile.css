@@ -1,0 +1,39 @@
+ 
+.dropdown-section
+{
+    position:relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+/*
+.dropdown-menu
+{
+    width: 300px;
+    padding: 20px;
+}
+.profile-account
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--bg-black-50);
+    margin: 20px 0px;
+}
+.profile-account img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.bal
+{
+    border-bottom: 1px solid var(--bg-black-50);
+    margin: 20px 0px;
+
+}
+.balance
+{
+    display: flex;
+    justify-content: space-between;
+} */

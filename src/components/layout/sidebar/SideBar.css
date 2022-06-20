@@ -1,8 +1,60 @@
+.aside
+{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  transition-duration: 0.5s;
+}
+.aside .aside-header
+{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  z-index: 1;
+}
+
+  
+.aside-logo .image
+{
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+}
+img.display
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.aside-logo
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.aside-logo .header-text
+{
+  font-size: 40px;
+  font-weight: 500;
+  
+
+}
+
 .menu
 {
   height: calc(100vh - 80px);
   width: 100%;
-  /* position: sticky; */
+  position: sticky;
+  top: 0;
   overflow-y: scroll;
 }
 
@@ -14,23 +66,22 @@
   display: block;
   border-bottom: 2px solid var(--text-black-700);
 }
-.menu-list li
+.menu-list .nav-test
 {
   height: 50px;
-  list-style: none;
   margin-top: 10px;
+  font-size: 20px;
   display: flex;
   text-decoration: none;
   align-items: center;
   color: var(--text-black-700);
 }
-
-/* .menu-list li:hover
+.menu-list li:hover
 {
-  border-right: 2px solid var(--text-black-700);
+  border-right: 5px solid var(--text-black-700);
 }
 
-.menu-list li .icons
+.menu-list li i
 {
   display: flex;
   align-items: center;
@@ -41,7 +92,7 @@
   border-radius: 10px;
   margin-left: 5px;
 }
-.menu-list li .text
+.menu-list li span
 {
   margin-left: 30px;
 }
@@ -57,29 +108,30 @@
 .menu .menu-list  li .link:hover
 {
   color: var(--text-black-900);
-} */
-
-
-/* .menu .menu-profile ul
+} 
+.menu .menu-profile ul
 {
   height: 400px;
   width: 100%;
   padding: 5px;
   display: block;
 }
-
-.menu-profile li
+.menu-profile .nav-test
 {
   height: 50px;
-  list-style: none;
   margin-top: 10px;
+  font-size: 20px;
   display: flex;
   text-decoration: none;
   align-items: center;
   color: var(--text-black-700);
 }
+.menu-profile li:hover
+{
+  border-right: 5px solid var(--text-black-700);
+}
 
-.menu-profile li .icons
+.menu-profile li i
 {
   display: flex;
   align-items: center;
@@ -90,7 +142,7 @@
   border-radius: 10px;
   margin-left: 5px;
 }
-.menu-profile li .text
+.menu-profile li span
 {
   margin-left: 30px;
 }
@@ -106,5 +158,4 @@
 .menu .menu-profile  li .link:hover
 {
   color: var(--text-black-900);
-  border-right: 2px solid var(--text-black-900);
-} */
+} 

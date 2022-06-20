@@ -8,9 +8,11 @@ import HomeNews from './content/HomeNews'
 import About from './content/About'
 
 
+
 const HomePage = () => {
   return (
     <div className="Page">
+
       <div>
         <TopHome />
       </div>

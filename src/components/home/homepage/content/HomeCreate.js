@@ -7,9 +7,9 @@ const HomeCreate = () => {
         <div className="row mx-10 mt-3">
             {/* Each column contains components with images, a radio button and a name of the collector. */}
             <div className="col mx-4">
-              <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
+              <div className="card" style={{width: '10rem'}}>
+                {/* <img src="..." className="card-img-top" alt="..."/> */}
+                <div className="card-body">
                 <div className="display-content" ></div>
                     <h3>Setup Your Wallet</h3>
                     <p>Once you've set up the wallet of your choice, connect
@@ -21,9 +21,9 @@ const HomeCreate = () => {
               </div>
             </div>
             <div className="col mx-4">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
+            <div className="card" style={{width: '10rem'}}>
+                {/* <img src="..." className="card-img-top" alt="..."/> */}
+                <div className="card-body">
                 <div className="display-content"></div>
                     <h3>Create your collection</h3>
                     <p>Click my collection and setup your collection.
@@ -36,9 +36,9 @@ const HomeCreate = () => {
               </div>            
             </div>
             <div className="col mx-4">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
+            <div className="card" style={{width: '10rem'}}>
+                {/* <img src="..." className="card-img-top" alt="..."/> */}
+                <div className="card-body">
                 <div className="display-content"></div>
                     <h3>Add your NFTs</h3>
                     <p>Upload your works(image, video, audio or 3D art), add a title 
@@ -50,9 +50,9 @@ const HomeCreate = () => {
               </div>            
             </div>
             <div className="col mx-4">
-            <div class="card" style={{width: '10rem'}}>
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div class="card-body">
+            <div className="card" style={{width: '10rem'}}>
+                {/* <img src="..." className="card-img-top" alt="..."/> */}
+                <div className="card-body">
                 <div className="display-content"></div>
                         <h3>List them for sale</h3>
                         <p>Choose between auctions, fixed-priced listing and declining price listing.
