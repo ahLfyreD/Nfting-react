@@ -1,40 +1,31 @@
 import * as AiIcons from "react-icons/ai"
+import * as TbIcons from "react-icons/tb"
+import * as BiIcons from "react-icons/bi"
+import * as MdIcons from "react-icons/md"
 
 export const MenuData = [
     {
         title: 'Home',
         path: '/',
-        icons: <AiIcons.AiFillHome/>,
+        icons: <AiIcons.AiOutlineHome/>,
         cName: 'nav-test'
     },
     {
-        title: 'My NFT',
-        path: '/liveevent',
-        icons: <AiIcons.AiFillHome/>,
-        cName: 'nav-test'
-    },
-    {
-        title: 'Create NFT',
-        path: '/',
-        icons: <AiIcons.AiFillHome/>,
+        title: 'Explore',
+        path: '/explore',
+        icons: <TbIcons.TbListSearch/>,
         cName: 'nav-test'
     },
     {
         title: 'News Feed',
-        path: '/',
-        icons: <AiIcons.AiFillHome/>,
+        path: '/newsfeed',
+        icons: <BiIcons.BiNews/>,
         cName: 'nav-test'
     },
     {
-        title: 'Live Event',
-        path: '/',
-        icons: <AiIcons.AiFillHome/>,
-        cName: 'nav-test'
-    },
-    {
-        title: 'Market Statistics',
-        path: '/',
-        icons: <AiIcons.AiFillHome/>,
+        title: 'Market Stats',
+        path: '/marketstatistics',
+        icons: <MdIcons.MdQueryStats/>,
         cName: 'nav-test'
     },
 ]

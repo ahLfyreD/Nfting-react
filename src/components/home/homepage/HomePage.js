@@ -1,5 +1,5 @@
 import './HomePage.css'
-import TopHome from './content/TopHome'
+import TopHome from './content/tophome/TopHome'
 import HomeTrend from './content/HomeTrend'
 import HomeDrops from './content/HomeDrops'
 import HomeOpt from './content/HomeOpt'
@@ -11,35 +11,35 @@ import About from './content/About'
 
 const HomePage = () => {
   return (
-    <div className="Page">
+    <div className="w-full h-fit p-1 relative">
 
       <div>
         <TopHome />
       </div>
 
-      <div>
+      {/* <div>
         <HomeTrend />
-      </div>
+      </div> */}
 
       <div>
         <HomeDrops />
       </div>
 
-      <div>
+      <div >
         <HomeOpt />
       </div>
 
-      <div>
+       <div>
         <HomeCreate />
       </div>
 
-      <div>
+      {/*<div>
         <HomeNews />
       </div>
 
       <div>
         <About />
-      </div>
+      </div> */}
         
         
 
