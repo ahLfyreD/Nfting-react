@@ -17,29 +17,32 @@ import Header from "@components/layout/head/Header";
 import { useState } from "react";
 
 function App() {
-  // const [open, setOpen] = useState(true);
 
-  // const [openModal, setOpenModal] = useState(false);
-
+  const [open, setOpen] = useState(false);
+  const handleClick = () => {
+    console.log(true)
+  }
   return (
     <Router>
-      <div className="w-100 flex">
-        <div className>
-          <SideBar />
+      <div className="w-full flex relative">
+        <div className="relative ">
+          <SideBar onClick={handleClick}/>
         </div>
 
-        <div className="relative flex-1 flex-col">
-          <div className="sticky top-0 bg-white z-10">
+        <div className={`flex-1 ${!open ? "ml-60" : "ml-24"}`}>
+          <div className="sticky top-0 bg-white z-[2]">
             <Header />
           </div>
-          <div>
-            <Routes>
-              <Route path="/explore" element={<Explore />} />
-              <Route path="/marketstatistics" element={<MarketStat />} />
-              <Route path="/newsfeed" element={<NewsFeed />} />
-              <Route path="/" element={<HomePage />} />
-            </Routes>
-          </div>
+          
+            <div className="relative">
+              <Routes>
+                <Route path="/explore" element={<Explore />} />
+                <Route path="/marketstatistics" element={<MarketStat />} />
+                <Route path="/newsfeed" element={<NewsFeed />} />
+                <Route path="/" element={<HomePage />} />
+              </Routes>
+            </div>
+        
         </div>
       </div>
     </Router>

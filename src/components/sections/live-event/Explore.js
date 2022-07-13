@@ -1,14 +1,10 @@
 import { Link } from 'react-router-dom'
+import Drops from "@components/sections/live-event/contents/Drops";
 
 const Explore = () => {
   return (
     <div className="">
-        <Link to="/"><i className="fas fa-arrow-left"></i></Link>
-
-        <div>
-            <h1>Explore Events</h1>
-        </div>
-
+        <Drops/>
     </div>
   )
 }

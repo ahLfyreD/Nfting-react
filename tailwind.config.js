@@ -5,15 +5,15 @@ module.exports = {
   ],
   theme: {
     container: {
-      padding: '0' 
+       
     },
-    screens: {
-      'sm': '440px',
-      'md': '576px',
-      'lg': '768px',
-      'xl': '1024px',
-      '2xl': '1680px'
-    },
+    // screens: {
+    //   'sm': '440px',
+    //   'md': '576px',
+    //   'lg': '768px',
+    //   'xl': '1024px',
+    //   '2xl': '1680px'
+    // },
     extend: {
       fontFamily: {
         nunito: 'nunito'
@@ -41,5 +41,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')({
+    strategy: 'className'
+  })],
 }

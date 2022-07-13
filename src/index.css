@@ -9,3 +9,8 @@
 {
     visibility: hidden;
 }
+
+.form-input:focus
+{
+    outline: none;
+}
